@@ -42,7 +42,7 @@ exports.run = (client, message, args) => {
     `${client.guilds.size}`, true)
   .addField("Version",
     `${n.version}`)
-  .setFooter("coded by gonzo#0001")
+  .setFooter("coded by 7alex#0059")
   .setTimestamp()
   message.channel.send(embed);
   };
