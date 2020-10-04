@@ -26,7 +26,7 @@ exports.run = (client, message, args) => {
   }
   var embed = new Discord.RichEmbed()
   .setTitle("Bot Information")
-  .setDescription("Information for Discord Bot)
+  .setDescription("Information for " + n.name)
   .setThumbnail(`${client.user.avatarURL}`)
   .setAuthor(message.author.username + "#" + message.author.discriminator, `${message.author.avatarURL}`)
   .setColor(randomColor())
